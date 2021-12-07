@@ -36,7 +36,7 @@ def chart(positive, negative, neutral):
 
 def get_user_timeline(screen_name, count=200):
     """Return list of most recent tweets posted by screen_name."""
-    API_KEY=8AO6OU5ubyi4XO47b1C7Sjdlz;
+
     # ensure count is valid
     if count < 1 or count > 200:
         raise RuntimeError("invalid count")
